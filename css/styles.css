@@ -870,7 +870,7 @@ input#submit-colors{
 	}
 	/******************** HOME PAGE ************/
 
-	.navbar-brand img{
+	.navbar-header a.navbar-brand img{
 		display: none;
 	}
 

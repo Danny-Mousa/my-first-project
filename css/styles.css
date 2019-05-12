@@ -871,7 +871,7 @@ input#submit-colors{
 	/******************** HOME PAGE ************/
 
 	.navbar-brand img{
-		width: 125px;
+		display: none;
 	}
 
 	/******************* SERVICE PAGE **********/

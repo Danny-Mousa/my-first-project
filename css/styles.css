@@ -1,0 +1,1187 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	position: relative;
+}
+#main-content-portfolio, #main-content-team, #main-content-features{
+	margin-bottom: 50px;
+}
+#main-content-blog{
+	margin-bottom: 100px;
+}
+/*************************** COLLAPSE BUTTON ***************************/
+
+
+button.navbar-toggle{
+	background-color: #6666ff;
+	margin-top: 17px;
+	border: 1px solid white;
+}
+.navbar-default .navbar-toggle span.icon-bar{
+	background-color: white;
+	height: 2px;
+}
+
+ul.nav li{
+	text-align: center;
+}
+.container div#myNav>.navbar-nav li:hover{
+	background-color: white;
+	font-size: 26px;
+}
+.navbar-default button.navbar-toggle:hover,.navbar-default button.navbar-toggle:focus{
+	background-color: #0047b3;
+}
+
+.navbar-default ul.navbar-nav li a:hover{
+	color:#6666ff;
+}
+.navbar-default ul.navbar-nav li.active a:hover{
+	color:#003380;
+}
+
+/**************************THE IMAGE OF THE HOME PAGE ******************/
+
+#container{
+	margin-top:-20px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#first-img{
+	width: 100%;
+	height: 630px;
+	filter: brightness(30%);
+}
+
+
+#container div:nth-child(2) {
+	position: absolute;
+	top:200px;
+	color: white;
+	font-family: 'Hind Siliguri', sans-serif;
+
+}
+
+#container div:nth-child(2) >div{
+	font-size: 52px;
+	font-weight: 600;
+}
+#creative{
+	color:#9900ff;
+}
+
+span#secondDiv{
+	font-size: 16px;
+}
+div#btn button{
+	background-color: transparent;
+}
+#container div#btn{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	color:white;
+
+}
+div#btn button{
+	text-align: center;
+	padding: 10px 25px;
+	font-size: 12px;
+	font-weight: 100;
+	font-family: 'Hind Siliguri', sans-serif;
+	color:white;
+	border: 0.5px solid #737373;
+	border-radius: 3px;
+}
+
+div#btn button:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
+/******************** END OF IMAGE OF THE PAGE ********************/
+
+/************************** NAVEGATION BAR **************************/
+
+#header-nav{
+	background-color: #4d4dff;
+	
+	border-radius: 0px;
+	border:0px;
+	
+}
+
+.navbar-default ul.navbar-nav li a{
+	color: white;
+
+}
+
+.navbar-header{
+	    margin-top: -10px;
+}
+
+ul.navbar-nav{
+	margin-right: -50px;
+}
+.navbar-default .navbar-nav li.active a{
+	background-color: #0047b3;
+	color: white;
+
+}
+/************ END OF HOME PAGE *****************/
+
+/********************** STRAT OF SERVICE PAGE ******************/
+
+
+#service-title+div{
+	color:#595959;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div.text-center{
+	margin-top: 25px;
+}
+
+div#GI>div{
+	font-size: 40px;
+	background-color: #4d4dff;
+	color: white;
+	width: 90px;
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 15px;
+
+}
+div#GI{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.col-md-4{
+	text-align: center;
+	margin-top: 50px;
+}
+
+section.row{
+	margin-bottom: 50px;
+	box-shadow: 0 0 50px #4d4dff;
+	margin-top: 35px;
+	border-radius: 5px;
+}
+
+span#name{
+	font-size: 19px;
+	color: black;
+}
+
+.first, .second, .third{
+	border-bottom:1px solid #f2f2f2;
+}
+
+.second, .third, .fifth, .sixth{
+	border-left:1px solid #f2f2f2;
+
+}
+
+.col-md-4.forth, .col-md-4.fifth, .col-md-4.sixth{
+	margin-top:0px;
+}
+
+.forth #GI, .fifth #GI, .sixth #GI{
+	padding-top:20px;
+}
+
+.first , .second, .third {
+	padding-bottom: 20px;
+}
+
+span#name~div{
+	margin-top:7px;
+	color:#737373;
+}
+
+#text-margin{
+	margin-bottom: 35px;
+}
+
+/********************** END OF SERVICE PAGE *********************/
+
+/****************************START OF ABOUT US page *************/
+
+#main-content-aboutus{
+	margin-top: -20px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#about-us-content{
+	position: absolute;
+	top:150px;
+
+}
+body#abus nav{
+	border-bottom: 1px solid #00b3b3;
+}
+img#background-img{
+	
+	width:100%;
+	height: 604px;
+}	
+.row{
+	color: white;
+}
+#about-us-heading{
+	margin-bottom: 20px;
+}
+.percentage{
+	margin-top:25px;
+	padding-left: 70px;
+}
+
+div.outerRec{
+	background-color: white;
+	height: 15px;
+	width: 400px;
+	margin-top:5px;
+	margin-bottom: 20px;
+}
+
+div.innerRec{
+	background-color: #4d4dff;
+	height: 15px;
+	text-align: right;
+	line-height: 1;
+	font-size: 12px;
+	padding-top: 2px;
+	padding-right: 2px;
+}
+
+div.firstI{
+	width: 95%;
+}
+div.secondI{
+	width:75%;
+}
+div.thirdI{
+	width:60%;
+}
+div.forthI{
+	width: 85%;
+}
+
+
+
+
+
+/************************ END OF ABOUT US PAGE ************************/
+
+
+/************************* START OF PORTFOLIO PAGE ******************/
+#main-content-portfolio>h2+div{
+	color: #4d4d4d;
+	width:75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#portfolio-images{
+	margin-top: 50px;
+	box-shadow: 0 0 70px #4d79ff;
+}
+#portfolio-images div{
+	margin: 0;
+}
+
+div#first-ig{
+	background-image: url("../images/portfolio/1.jpg");
+	height: 280px;
+	width:292.5px;
+}
+
+div#second-ig{
+	background-image: url("../images/portfolio/2.jpg");
+	height: 280px;
+	width:292.5px;
+}
+div#third-ig{
+	background-image: url("../images/portfolio/3.jpg");
+	height: 280px;
+	width:292.5px;
+}
+div#forth-ig{
+	background-image: url("../images/portfolio/4.jpg");
+	height: 280px;
+	width:292.5px;
+}
+div#fifth-ig{
+	background-image: url("../images/portfolio/5.jpg");
+	height: 280px;
+	width:292.5px;
+}
+div#sixth-ig{
+	background-image: url("../images/portfolio/6.jpg");
+	height: 280px;
+	width:292.5px;
+}
+div#seventh-ig{
+	background-image: url("../images/portfolio/7.jpg");
+	height: 280px;
+	width:292.5px;
+}
+div#eighth-ig{
+	background-image: url("../images/portfolio/8.jpg");
+	height: 280px;
+	width:292.5px;
+}
+div#ninth-ig{
+	background-image: url("../images/portfolio/9.jpg");
+	height: 280px;
+	width:292.5px;
+}
+
+/************* END OF PORTFOLIO PAGE *********/
+
+
+/************ START THE TEAM PAGE ***********/
+
+
+#team-images{
+	margin-top: 50px;
+}
+
+#team-images{
+	color: #4d4d4d;
+}
+
+#mem-info{
+	color: #808080;
+	margin-top:10px;
+}
+
+#mem-info~div{
+	margin-top:15px;
+}
+
+#main-content-team>h2+div{
+	color:#4d4d4d;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#social-media-container{
+	width: 176px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#social-media-container img{
+	width:23px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+/***************END OF TEAM PAGE ****************/
+
+/*************** START OF FEATURES PSGE *********/
+
+
+#main-content-features{
+	padding: 0px;
+	margin-top: -20px;
+	position: relative;
+}
+
+#feature-images{
+	width: 90%;
+	position: absolute;
+	top:100px;
+	left:100px;
+	display: flex;
+	justify-content: space-around;
+	margin-left: -40px;
+    margin-top: -50px;
+    color: white;
+    padding-top: 30px;
+}
+
+#feature-images img{
+	width:45px;
+}
+
+#feature-images div{
+	text-align: center;
+}
+
+#feature-images h3{
+	margin-top:15px;
+	margin-bottom:-3px;
+}
+
+#feature-images h3+div{
+	color: #f2f2f2;
+}
+
+#main-content-features h2{
+	margin-top: 50px;
+}
+
+div#pricing-text{
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	color:#4d4d4d;
+}
+#main-content-features .row{
+	text-align: center;
+	color:#595959;
+	margin-top:50px;
+	
+	width: 100%;
+
+}
+#main-content-features span{
+	font-size: 30px;
+	color: #4d4d4d;
+}
+
+#main-content-features .row h4{
+	color: #000000;
+}
+
+#feature-btn button{
+	background-color: #4d4dff;
+	width: 70px;
+	height:30px;
+	color: white;
+	border:0;
+}
+#feature-btn{
+	width: 204.75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-content-features .col-md-3{
+	border:1px solid #e6e6e6;
+	width: 18%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+/************END OF FEATURES PAGE *****************/
+
+/*********** START OF BLOG PAGE *******************/
+
+
+#main-content-blog{
+	position: relative;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top:-20px;
+}
+
+#main-content-blog>img{
+	width: 100%;
+}
+#main-content-image{
+	width: 90%;
+	position: absolute;
+	top: 160px;
+	left: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#text-of-image{
+	text-align: center;
+	color: white;
+	width: 100%;
+	margin-top: -40px;
+}
+
+#main-content-image img{
+	width: 50px;
+	height: 45px;
+}
+
+#text-of-image>img{
+	margin-top: -50px;
+}
+
+#text-of-image>img+div{
+	margin-bottom: 15px;
+}
+
+#text-of-image span{
+	color: #9999ff;
+}
+#main-content-blog h2{
+	margin-top:50px;
+}
+
+#blog-text{
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	color:#4d4d4d;
+}
+
+#blog-posts-row{
+	margin-top:30px;
+	width: 90%;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+#first-blog-img{
+	background-image: url("../images/blog/1new.jpg");
+	height: 281px;
+	width: 340px;
+	padding:0px;
+	
+}
+
+#second-blog-img{
+	background-image: url("../images/blog/2new.jpg");
+	height: 281px;
+	width: 340px;
+	padding:0px;
+}
+#third-blog-img{
+	background-image: url("../images/blog/3new.jpg");
+	height: 281px;
+	width: 340px;
+	padding:0px;
+}
+
+#blog-posts-row{
+	display: flex;
+	justify-content: space-between;
+}
+
+#blog-posts-row div.col-md-4{
+	box-shadow: 0 0 20px #4d79ff;
+	position: relative;
+}
+#first-blog-img div.glyphicon, #second-blog-img div.glyphicon, #third-blog-img div.glyphicon{
+	width: 28px;
+    height: 25px;
+    border: 1px solid #4d79ff;
+    border-radius: 3px;
+    background-color: #4d79ff;
+    padding-top: 4px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+#blog-posts-row div.glyphicon:hover{
+	background-color: white;
+	color: #4d79ff;
+	border: 1px solid white;
+	width: 35px;
+	height: 32px;
+	font-size: 15px;
+	padding-top: 5px;
+}
+
+#comments-likes{
+	width: 170px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+
+#circle{
+	font-size: 12px;
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+}
+
+#date{
+	font-size: 12px;
+	font-weight: 500;
+
+}
+
+#image-details hr{
+	width:40px;
+	background-color: #4d79ff;
+	height: 3px;
+	margin-bottom: 10px;
+}
+#image-details{
+	color: #4d4d4d;
+	position: absolute;
+	left: 0px;
+	bottom: -230px;
+	text-align: left;
+}
+#heading-color{
+	color:#4d79ff;
+	margin-bottom: 25px;
+}
+
+#load-more button{
+	color: #4d4d4d;
+	width: 250px;
+	height: 40px;
+	background-color: transparent;
+	border:1px solid #e6e6e6;
+
+}
+
+#load-more button:hover{
+	background-color: #4d79ff;
+	color: white;
+}
+
+#load-more{
+	width: 100%;
+	position: relative;
+    top: 270px;
+    text-align: center;
+
+}
+#blog-body #footer-area,#blog-body #copyright{
+	position: relative;
+	top:220px;
+}
+#blog-body #footer-area{
+	border-top: 1px solid #4d4d4d;
+}
+
+/******************** END OF BLOG PAGE ***********/
+
+
+/******************** START OF CONTACT PAGE *******/
+
+
+#main-content-contact{
+	background-image: url("../images/contact-bg-new.jpg");
+	padding: 0px;
+	height: 710px;
+	margin-top:-20px;
+	color:white;
+
+}
+#main-content-contact>h2{
+	margin-top: 80px;
+}
+
+div#brief-overview{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #e6e6e6;
+}
+
+#main-content-contact .row{
+	margin-top:100px;
+	width: 100%;
+}
+
+#user-info input{
+	height: 35px;
+	width: 85%;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    background-color: transparent;
+    border: 0.5px solid #4d4d4d;
+    padding-left: 10px;
+    font-size:11px;
+}
+
+form{
+	margin-left: 100px;
+    width: 100%;
+}
+
+#user-info{
+	padding:0;
+}
+
+#user-info input.nameEmail{
+	width: 40%;
+	margin-right: 30px;
+}
+
+input#enterMessage{
+	height: 100px;
+	padding-bottom: 65px;
+}
+
+input#submit-colors{
+	background-color: #4d4dff; 
+	font-size: 13px;
+	margin-top: 10px;
+}
+
+
+#company-info>div{
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#contact-info{
+	margin-top: 20px;
+
+}
+#contact-info span{
+	margin-bottom: 20px;
+}
+#footer-area{
+	background-color: #4d4dff;
+}
+
+#socail-container{
+	margin-top:17px;
+	text-align: center;
+}
+
+#socail-container div{
+	width: 32px;
+	height: 32px;
+	font-size: 14px;
+	background-color: #0047b3;
+	color: white;
+	text-align: center;
+	padding-top: 9px;
+	border-radius: 4px;
+	margin-right: 4px;
+}
+
+#footer-area div.text-center{
+	margin-top: 10px;
+}
+
+#copyright{
+	color: #0047b3;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 0 5px 0;
+	font-size: 12px;
+}
+
+
+
+/******************* MEDIA QUERIES **********************/
+/******************* MEDIA QUERIES **********************/
+
+
+
+/***************** START OF LARGE DEVICES **********************/
+
+@media (min-width: 1200px){
+	#main-content-features div.row{
+		display: flex;
+		justify-content: space-around;
+
+	}
+}
+
+
+
+
+
+
+/******************* START OF MEDIUM DEVICES ******************/
+
+@media (min-width: 992px) and (max-width: 1199px){
+	#about-us-content{
+		top:100px;
+	}
+	#firstP, #secondP{
+		width: 80%;
+
+	}
+	#left-column{
+		width: 400px;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+	/************* START OF PORTFOLIO PAGE *********/
+	#portfolio-images{
+		width: 877.5px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	/************* START OF FEATURES PAGE *********/
+
+	#main-content-features div.row{
+		width: 75%;
+    	margin-right: auto;
+    	margin-left: auto;
+    	display: flex;
+    	flex-wrap: wrap;
+	}
+
+	#main-content-features div.row div{
+		width: 35%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.for-margin-top{
+		margin-top: 50px;
+	}
+
+	/*************** START OF BLOG PAGE ***********/
+
+	#main-content-image{
+		top:120px;
+
+	}
+}
+
+
+
+
+/****************** START OF SMALL DEVICES ********************/
+
+
+@media (min-width: 768px) and (max-width: 991px){
+	
+	/*********** NAVBAR HEADER *****************/
+
+	#myNav{
+		font-size: 11px;
+	}
+	/******************** HOME PAGE ************/
+
+	.navbar-brand img{
+		width: 125px;
+	}
+
+	/******************* SERVICE PAGE **********/
+
+	#main-content-service{
+		width: 75%;
+	}
+
+	div.forth{
+		padding-top: 30px;
+	}
+	#text-margin{
+		width: 75%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	section.row div{
+		border: 0;
+	}
+
+	section.row div.second, section.row div.forth, section.row div.sixth{
+		border-left: 1px solid #f2f2f2;
+	}
+	/************** ABOUT US PAGE *****************/
+	#about-us-content{
+		top:25px;
+	}
+	#about-us-heading{
+		margin-bottom: 30px;
+	}
+	#about-us-heading, #firstP, #secondP, .percentage{
+		text-align: center;
+		width: 75%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.percentage div.outerRec{
+	 	width: 90%;
+	 	margin-right: auto;
+		margin-left: auto;
+	}
+	.percentage{
+		margin-top: 50px;
+	}
+	/************* START OF PORTFOLIO PAGE *********/
+	#portfolio-images{
+		width: 585px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	/**************** START OF TEAM PAGE ***********/
+	#team-img1, #team-img2, #team-img3, #team-img4 {
+		margin-bottom: 30px;
+	}
+	#team-img1>img, #team-img2>img, #team-img3>img, #team-img4>img{
+		margin-left: 45px;
+	}
+	/*********** START OF FEATURES PAGE *********/
+	#feature-images{
+		top:55px;
+	}
+	#feature-images img{
+		width: 40px;
+	}
+	.feature-column {
+		font-size: 15px;
+		font-weight: bold;
+	}
+	.columnF{
+		margin-left: -5px;
+	}
+	#main-content-features div.row{
+		width: 75%;
+    	margin-right: auto;
+    	margin-left: auto;
+    	display: flex;
+    	flex-wrap: wrap;
+	}
+	#main-content-features div.row div{
+		width: 35%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.for-margin-top{
+		margin-top: 50px;
+	}
+	/*************** START OF BLOG PAGE ***********/
+
+	#main-content-image{
+		top:110px;
+	}
+	#main-content-image img {
+    width: 40px;
+    height: 35px;}
+
+    #image-details{
+    	width: 200px;
+    	bottom: -250px;
+    }
+    #blog-posts-row{
+    	margin-top: 0;
+    }
+
+    
+    
+
+    /************** START OF CONTACT PAGE ********/
+    #user-info{
+    	width: 45%;
+    }
+    #company-info{
+    	width:55%;
+    }
+    .nameEmail2{
+    	margin-left: -14px;
+    }
+
+    /************* START OF BLIOG PAGE *********/
+    #comments-likes{
+    	font-size: 11px;
+    	display: flex;
+    	justify-content: space-around;
+    	left: 0px;
+    }
+    #circle{
+    	font-size: 10px;
+    }
+
+
+}
+
+/****************** END OF SMALL DEVICES ***********************/
+
+/******************* START OF EXTRA SMALL DEVICES ***********************/
+
+@media (max-width: 767px){
+
+	/*********** SERVICE PAGE **********/
+
+	#main-content-service{
+		width: 75%;
+	}
+
+	#text-margin{
+		width: 75%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.forth, .fifth{
+		border-bottom: 1px solid #f2f2f2;
+	}
+
+	/********** ABOUT US PAGE ************/
+
+	#about-us-content{
+		top:25px;
+	}
+
+	
+	#about-us-heading{
+		margin-bottom: 30px;
+	}
+	#about-us-heading, #firstP, #secondP, .percentage{
+		text-align: center;
+		width: 75%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.percentage div.outerRec{
+	 	width: 90%;
+	 	margin-right: auto;
+		margin-left: auto;
+	}
+	.percentage{
+		margin-top: 50px;
+	}
+	/************* START OF PORTFOLIO PAGE *********/
+	#portfolio-images{
+		width: 292.5px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	/************* START OS TEAM PAGE ***********/
+
+	#team-images{
+		width:262px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#team-images div{
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	/*********** START OF FEATURES PAGE *********/
+
+	#feature-images{
+		top:35px;
+		left:50px;
+	}
+
+	#feature-images img{
+		width:30px;
+	}
+	.feature-column {
+		font-size: 13px;
+		font-weight: bolder;
+	}
+	.columnF{
+		margin-left: -5px;
+	}
+
+	#feature-btn button{
+		margin-left: -15px;
+	}
+	
+	#main-content-features div.row{
+		width: 75%;
+    	margin-right: auto;
+    	margin-left: auto;
+    	display: flex;
+    	flex-wrap: wrap;
+	}
+
+	#main-content-features div.row div{
+		width: 35%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.for-margin-top{
+		margin-top: 50px;
+	}
+
+	/*************** START OF BLOG PAGE ***********/
+	#main-content-image{
+		top:70px;
+		left: 30px;
+	}
+	#text-of-image{
+		font-size: 12px;
+	}
+	#text-of-image>img{
+		display: none;
+	}
+	#main-content-image img{
+		width: 40px;
+		height: 35px;
+		margin-top: -15px;
+	}
+	#image-details {
+    width: 200px;
+    bottom: -250px;
+    margin-right: auto;
+    margin-left: auto;
+    left: 60px;
+	}
+	#heading-color{
+		text-align: center;
+    	width: 90%;
+	}
+    
+    
+    #blog-posts-row{
+    	height: 600px;
+    	margin-top: 0;
+    	display: flex;
+    	flex-wrap: wrap;
+    	position: relative;
+    	justify-content: center;
+    }
+    #second-blog-img{
+    	position: absolute;
+    	top: 230px;
+    }
+    #third-blog-img{
+    	position: absolute;
+    	top: 450px;
+    }
+    #load-more{
+    	top:1130px;
+    }
+    #main-content-blog{
+    	height: 1850px;
+    }
+
+
+	
+	/************** START OF CONTACT PAGE ********/
+    #user-info form{
+    	display: flex;
+    	flex-wrap: wrap;
+    }
+    #user-info input.nameEmail{
+    	width: 85%;
+    }
+    #main-content-contact{
+    	height: 900px;
+    }
+    #main-content-contact>h2{
+    	margin-top: 30px;
+    }
+    #main-content-contact .row{
+    	margin-top: 30px;
+    	margin-left: 50px;
+    }
+    #company-info{
+    	margin-top: 40px;
+    }
+
+}
